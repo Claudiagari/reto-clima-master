@@ -48,14 +48,14 @@ class SignIn extends Component {
             <div className="list">
               <ul className="route container-fluid">
                 <li className=" col-5 text-center">
-                  <NavLink  exact activeStyle={{ borderBottom: ' 3px solid rgb(255, 205, 0)' }} className="active" to="/home">AHORA</NavLink>
+                  <NavLink  exact activeStyle={{ borderBottom: ' 3px solid rgb(255, 205, 0)' }} className="active" to="/reto-clima-master">AHORA</NavLink>
                 </li>
                 <li className="col-5 text-center">
                   <NavLink activeStyle={{ borderBottom: ' 3px solid rgb(255, 205, 0)' }} to="/diario">DIARIO</NavLink>
                 </li>
               </ul>
               <hr />
-              <Route exact path="/home" component={Home} />
+              <Route exact path="/reto-clima-master" component={Home} />
               <Route path="/diario" component={About} />
             </div>
           </Router>
